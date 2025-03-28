@@ -1,0 +1,31 @@
+@import "tailwindcss";
+@layer utilities {
+  .boxClipPaths {
+    clip-path: polygon(100% 0%, 100% 0%, 100% 100%, 0% 100%);
+  }
+  .clipPaths {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 95%, 0% 100%);
+  }
+
+  .LandingclipPaths {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
+  }
+  .LandingclipPathsTop {
+    clip-path: polygon(0% 2%, 100% 0%, 100% 100%, 0% 100%);
+  }
+  .LandingclipPathsTopBottom {
+    clip-path: polygon(0% 5%, 100% 0%, 100% 95%, 0% 100%);
+  }
+  .ProfileclipPaths {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
+  }
+}
+@layer components {
+  .dashList {
+    @apply my-5 text-[#4c5159] text-sm font-bold hover:text-[#828e9e]  flex;
+  }
+
+  .dashboardDivised {
+    @apply grid grid-cols-[280px_1fr];
+  }
+}
