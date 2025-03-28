@@ -37,7 +37,7 @@ const index = () => {
             <p className="text-[#64748b] font-semibold text-lg font-sans w-[600px] max-sm:w-xs max-lg:font-normal max-xl:w-[450px]">
               Notus Tailwind JS is Free and Open Source. It does not change any
               of the CSS from Tailwind CSS. It features multiple HTML elements
-              and it comes with dynamic components for ReactJS, Vue and Angular.
+              and it comes with dynamic components for ReactJS. Vue and Angular.
             </p>
             <div className="mt-10 text-white font-bold max-md:flex max-md:justify-evenly  w-96 max-[380px]:jus max-[380px]:w-80 max-[380px]:font-semibold">
               <button
